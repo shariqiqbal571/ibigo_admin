@@ -1,0 +1,317 @@
+.allData {
+    position: absolute;
+    height: 200px;
+    background: white;
+    top: 22%;
+    z-index: 1;
+    width: 97%;
+    border-radius: 5px;
+    display: none;
+    overflow: scroll;
+}
+
+.allData .all-spots {
+    cursor: pointer;
+    background: #f5f0f0;
+}
+
+.allData .all-spots img {
+    border-radius: 5px;
+}
+
+.select-spot {
+    border: 2px solid #cdc5c5;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: none;
+}
+
+.drop-menu-tag {
+    transform: translate3d(15px, -12px, 0) !important;
+    padding: 0 !important;
+    width: 95% !important;
+}
+
+.tag button {
+    height: 35px;
+    right: 0;
+}
+
+.tag .input-group-text {
+    padding: 0 30px !important;
+    cursor: pointer;
+}
+
+.tag span i {
+    line-height: 0 !important;
+}
+
+.tag-users {
+    display: none;
+    padding: 10px 25px;
+    margin: 0 15px;
+    border-radius: 5px;
+    max-width: 95% !important;
+}
+
+.inner-tag-users .alert-dismissible .close,
+.inner-specific-users .alert-dismissible .close {
+    top: 50% !important;
+}
+
+.share-with {
+    line-height: 2 !important;
+}
+
+.share-with .form-check-input {
+    position: unset !important;
+}
+
+.review-user-spot:hover a {
+    color: #bb8d51 !important;
+}
+
+.review-star {
+    color: #262b86 !important;
+}
+
+.review-rating {
+    color: #bb8d51 !important;
+}
+
+.start-date-input {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    color: #607D8B;
+    width: 100%;
+}
+
+.start-date-input:focus {
+    outline: none;
+}
+
+#ui-datepicker-div {
+    display: none;
+    background-color: #fff;
+    border-radius: 30px;
+    height: 300px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.ui-datepicker-calendar thead th {
+    padding: 0.25rem 0;
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: #000;
+    opacity: 0.4;
+}
+
+.ui-datepicker-calendar tbody td {
+    width: 2.5rem;
+    text-align: center;
+    padding: 0;
+    color: #000;
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.ui-datepicker-calendar tbody td::hover {
+    background-color: gray;
+    border-radius: 50% !important;
+}
+
+.ui-datepicker-calendar tbody td a {
+    display: block;
+    border-radius: 0.25rem;
+    line-height: 2rem;
+    transition: 0.3s all;
+    color: #546E7A;
+    font-size: 0.875rem;
+    text-decoration: none;
+}
+
+.ui-datepicker-calendar tbody td a:hover {
+    background-color: #E0F2F1;
+}
+
+.ui-datepicker-calendar tbody td a.ui-state-active {
+    background-color: #009688;
+    color: white;
+}
+
+.ui-datepicker-header {
+    background-color: #967ADC;
+    padding: 5px 0;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.ui-datepicker-header a.ui-corner-all {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    width: 2rem;
+    height: 2rem;
+    margin: 0.5rem;
+    border-radius: 0.25rem;
+    transition: 0.3s all;
+}
+
+.ui-datepicker-header a.ui-corner-all:hover {
+    background-color: #8c63f3;
+}
+
+.ui-datepicker-header a.ui-datepicker-prev {
+    left: 0;
+    background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMyIgaGVpZ2h0PSIxMyIgdmlld0JveD0iMCAwIDEzIDEzIj48cGF0aCBmaWxsPSIjNDI0NzcwIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik03LjI4OCA2LjI5NkwzLjIwMiAyLjIxYS43MS43MSAwIDAgMSAuMDA3LS45OTljLjI4LS4yOC43MjUtLjI4Ljk5OS0uMDA3TDguODAzIDUuOGEuNjk1LjY5NSAwIDAgMSAuMjAyLjQ5Ni42OTUuNjk1IDAgMCAxLS4yMDIuNDk3bC00LjU5NSA0LjU5NWEuNzA0LjcwNCAwIDAgMS0xLS4wMDcuNzEuNzEgMCAwIDEtLjAwNi0uOTk5bDQuMDg2LTQuMDg2eiIvPjwvc3ZnPg==");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    transform: rotate(180deg);
+    border-radius: 50%;
+}
+
+.ui-datepicker-header a.ui-datepicker-next {
+    right: 0;
+    background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMyIgaGVpZ2h0PSIxMyIgdmlld0JveD0iMCAwIDEzIDEzIj48cGF0aCBmaWxsPSIjNDI0NzcwIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik03LjI4OCA2LjI5NkwzLjIwMiAyLjIxYS43MS43MSAwIDAgMSAuMDA3LS45OTljLjI4LS4yOC43MjUtLjI4Ljk5OS0uMDA3TDguODAzIDUuOGEuNjk1LjY5NSAwIDAgMSAuMjAyLjQ5Ni42OTUuNjk1IDAgMCAxLS4yMDIuNDk3bC00LjU5NSA0LjU5NWEuNzA0LjcwNCAwIDAgMS0xLS4wMDcuNzEuNzEgMCAwIDEtLjAwNi0uOTk5bDQuMDg2LTQuMDg2eiIvPjwvc3ZnPg==');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+}
+
+.ui-datepicker-header a>span {
+    display: none;
+}
+
+.ui-datepicker-title {
+    text-align: center;
+    line-height: 2rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+.ui-datepicker-title span {
+    color: #fff;
+}
+
+.ui-datepicker-week-col {
+    color: #78909C;
+    font-weight: 400;
+    font-size: 0.75rem;
+}
+
+.fixed-btns {
+    display: none;
+}
+
+.event-card .w-25 {
+    width: 20%!important;
+}
+
+.event-card .w-75 {
+    width: 80%!important;
+}
+
+.event-card .w-25 .position-absolute {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 767px) {
+    .create-btns {
+        display: none;
+    }
+    .fixed-btns {
+        display: block;
+    }
+}
+
+#empty-msg-box .speach-icon a {
+    width: 50px;
+    height: 50px;
+    margin: 0!important;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+    border-color: #6610f2 !important;
+    background-color: #6610f2 !important;
+    width: 58px !important;
+    height: 32px !important;
+    border-radius: 50px !important;
+}
+
+.custom-control-label::before,
+.custom-file-label,
+.custom-select {
+    width: 58px !important;
+    height: 32px !important;
+    border-radius: 50px !important;
+}
+
+.custom-control-input:checked~.custom-control-label::after {
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50% !important;
+    top: calc(0.25rem + 1px) !important;
+    left: calc(-2.25rem + 15px) !important;
+}
+
+.custom-control-label::after {
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50% !important;
+    top: calc(0.25rem + 1px) !important;
+    left: calc(-2.25rem + 1px) !important;
+}
+
+.interest-btn {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    right: 0;
+    opacity: 0;
+    margin-top: -24px;
+    z-index: 12;
+}
+
+@media screen and (max-width: 600px) {
+    .menu-call {
+        display: block !important;
+    }
+}
+
+.make-admin {
+    cursor: pointer;
+}
+
+.scrolling-height {
+    height: 200px !important;
+    overflow: scroll !important;
+}
+
+.spinner-border {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 9999;
+}
+
+.post-media .owl-item {
+    width: 100% !important;
+    margin: 0 !important;
+}
